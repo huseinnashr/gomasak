@@ -74,3 +74,36 @@ can you also take screenshot so that we can use it on the pitch deck slides, ple
 ### Claude than setup test code and execute the test. 
 ### We get screenshot and json export
 ### End Chat
+
+## Take a step back, does it solve the problem?
+### Init Chat
+@docs/user_stories.md @docs/mvp_feature_spec.md , 
+
+the original problem are
+1.i plan for meal,  but the day i suppose to execute, some ingredient is missing
+2. i sometimes having difficulty to plan which meal to cook because i forgot list of meal i've previously cook..
+3. when i plaan for multiple meal, it takes effort to calculate the ingredient i need, what i have in stock
+does this problem solved?
+
+### Claude answer, all solved except no 2 is partially solved
+
+i think its fine, i just see the recipe list. Not all i can cook right now, so it lives in recipe until i can do it
+
+### Claude confirm
+
+can you write it to user_problem.md and also please create user_flow.md of the step user need to follow to solve the user problem.. using all the feature from user problem point of view.
+
+### Claude update the files
+
+## The Final Pitch
+### Init Chat
+can you do another test with the updated flow (frontend_test) to take a screenshot. please show all the feature. 
+---
+After that
+Please create a poster of user problem, and screenshot of the flow (+short explaination how/why it solve the problem with the particular flow)
+please keep the poster size not too big, you can decrease the screenshot reso.
+poster is in png
+@user_problem.md @user_flow.md
+
+### Claude execute the test and build the poster
+### End Chat

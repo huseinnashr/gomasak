@@ -1,10 +1,14 @@
 {
   "name": "frontend_test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Playwright user-test harness for the gomasak app (mobile portrait).",
+  "main": "user-test.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "playwright install chromium",
+    "setup:deps": "playwright install --with-deps chromium",
+    "test": "node user-test.mjs",
+    "poster": "node build-poster.mjs",
+    "all": "node user-test.mjs && node build-poster.mjs"
   },
   "keywords": [],
   "author": "",
