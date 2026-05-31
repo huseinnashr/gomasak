@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "ingredients": [
+    {
+      "id": "a7168bd7-114e-4a5a-a2e2-c531c74e1418",
+      "name": "beras",
+      "defaultUnit": "g"
+    },
+    {
+      "id": "be971db3-2e1a-4a0d-890a-a40239fb74e1",
+      "name": "telur",
+      "defaultUnit": "butir"
+    },
+    {
+      "id": "8fe9a3a6-7d95-4eb6-8c80-fb269291a0be",
+      "name": "bawang putih",
+      "defaultUnit": "siung"
+    },
+    {
+      "id": "88261a34-f877-43ff-959c-6cf1c7e66796",
+      "name": "kecap manis",
+      "defaultUnit": "sdm"
+    },
+    {
+      "id": "90c37b0a-b665-45ae-98c4-94148381a8e3",
+      "name": "garam",
+      "defaultUnit": "secukupnya"
+    },
+    {
+      "id": "068c41d9-7b49-4e28-aae1-4cb038d5423e",
+      "name": "ayam",
+      "defaultUnit": "g"
+    },
+    {
+      "id": "48613a36-e6c6-4693-849c-17b4e8ad7daf",
+      "name": "bawang merah",
+      "defaultUnit": "siung"
+    },
+    {
+      "id": "5518c860-4488-4152-8dfb-36ca66582b9d",
+      "name": "air",
+      "defaultUnit": "l"
+    },
+    {
+      "id": "ef16609b-96c7-4233-bbb1-f05ebf9e80a9",
+      "name": "teh",
+      "defaultUnit": "sachet"
+    },
+    {
+      "id": "409d4034-6951-4ee4-a793-059dc8369927",
+      "name": "gula",
+      "defaultUnit": "sdm"
+    }
+  ],
+  "stock": [
+    {
+      "ingredientId": "a7168bd7-114e-4a5a-a2e2-c531c74e1418",
+      "qty": 0.4,
+      "unit": "kg"
+    },
+    {
+      "ingredientId": "be971db3-2e1a-4a0d-890a-a40239fb74e1",
+      "qty": 0,
+      "unit": "butir"
+    },
+    {
+      "ingredientId": "068c41d9-7b49-4e28-aae1-4cb038d5423e",
+      "qty": 300,
+      "unit": "g"
+    },
+    {
+      "ingredientId": "8fe9a3a6-7d95-4eb6-8c80-fb269291a0be",
+      "qty": 0,
+      "unit": "siung"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "aae2b499-beee-4731-b879-7197da0f635a",
+      "title": "Nasi Goreng Spesial",
+      "servingSize": 2,
+      "steps": "Panaskan minyak, tumis bawang putih.\nMasukkan nasi dan telur, aduk rata.\nTambah kecap manis dan garam, aduk hingga matang.",
+      "ingredients": [
+        {
+          "ingredientId": "a7168bd7-114e-4a5a-a2e2-c531c74e1418",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "be971db3-2e1a-4a0d-890a-a40239fb74e1",
+          "qty": 2,
+          "unit": "butir"
+        },
+        {
+          "ingredientId": "8fe9a3a6-7d95-4eb6-8c80-fb269291a0be",
+          "qty": 3,
+          "unit": "siung"
+        },
+        {
+          "ingredientId": "88261a34-f877-43ff-959c-6cf1c7e66796",
+          "qty": 2,
+          "unit": "sdm"
+        },
+        {
+          "ingredientId": "90c37b0a-b665-45ae-98c4-94148381a8e3",
+          "qty": null,
+          "unit": "secukupnya"
+        }
+      ],
+      "trashed": false
+    },
+    {
+      "id": "3f43338e-0f85-4dc8-83a1-ad74899aa6a9",
+      "title": "Soto Ayam Kampung",
+      "servingSize": 4,
+      "steps": "Rebus ayam hingga empuk, suwir.\nTumis bumbu halus dan bawang merah.\nMasukkan ke kaldu, didihkan, beri garam.",
+      "ingredients": [
+        {
+          "ingredientId": "068c41d9-7b49-4e28-aae1-4cb038d5423e",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "ingredientId": "48613a36-e6c6-4693-849c-17b4e8ad7daf",
+          "qty": 5,
+          "unit": "siung"
+        },
+        {
+          "ingredientId": "5518c860-4488-4152-8dfb-36ca66582b9d",
+          "qty": 1,
+          "unit": "l"
+        },
+        {
+          "ingredientId": "90c37b0a-b665-45ae-98c4-94148381a8e3",
+          "qty": null,
+          "unit": "secukupnya"
+        }
+      ],
+      "trashed": false
+    },
+    {
+      "id": "a55aee33-19fa-4273-aaf4-49883a798629",
+      "title": "Es Teh Manis",
+      "servingSize": 1,
+      "steps": "Seduh teh dengan air panas.\nTambahkan gula, aduk.\nSajikan dengan es.",
+      "ingredients": [
+        {
+          "ingredientId": "ef16609b-96c7-4233-bbb1-f05ebf9e80a9",
+          "qty": 1,
+          "unit": "sachet"
+        },
+        {
+          "ingredientId": "409d4034-6951-4ee4-a793-059dc8369927",
+          "qty": 2,
+          "unit": "sdm"
+        },
+        {
+          "ingredientId": "5518c860-4488-4152-8dfb-36ca66582b9d",
+          "qty": 240,
+          "unit": "ml"
+        }
+      ],
+      "trashed": false
+    }
+  ],
+  "mealPlans": [
+    {
+      "id": "b5ba052d-e902-4c8d-a0b8-4c1f562d137e",
+      "date": "2026-05-31",
+      "mealType": "lunch",
+      "recipeId": "aae2b499-beee-4731-b879-7197da0f635a",
+      "servingSizeOverride": 4,
+      "status": "Cooked",
+      "cookedSnapshot": {
+        "title": "Nasi Goreng Spesial",
+        "servingSize": 4,
+        "lines": [
+          {
+            "ingredientId": "a7168bd7-114e-4a5a-a2e2-c531c74e1418",
+            "qty": 600,
+            "unit": "g"
+          },
+          {
+            "ingredientId": "be971db3-2e1a-4a0d-890a-a40239fb74e1",
+            "qty": 4,
+            "unit": "butir"
+          },
+          {
+            "ingredientId": "8fe9a3a6-7d95-4eb6-8c80-fb269291a0be",
+            "qty": 6,
+            "unit": "siung"
+          },
+          {
+            "ingredientId": "88261a34-f877-43ff-959c-6cf1c7e66796",
+            "qty": 4,
+            "unit": "sdm"
+          },
+          {
+            "ingredientId": "90c37b0a-b665-45ae-98c4-94148381a8e3",
+            "qty": null,
+            "unit": "secukupnya"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21d5e4b2-6cdd-4ebf-9203-3e31eb561ce4",
+      "date": "2026-05-31",
+      "mealType": "dinner",
+      "recipeId": "3f43338e-0f85-4dc8-83a1-ad74899aa6a9",
+      "servingSizeOverride": null,
+      "status": "Planned",
+      "cookedSnapshot": null
+    },
+    {
+      "id": "4cf5a9e3-2b0c-4416-b8f6-8c5c17735023",
+      "date": "2026-05-31",
+      "mealType": "snack",
+      "recipeId": "a55aee33-19fa-4273-aaf4-49883a798629",
+      "servingSizeOverride": null,
+      "status": "Planned",
+      "cookedSnapshot": null
+    },
+    {
+      "id": "2533610b-a45b-49fe-a590-a0a7f004dd37",
+      "date": "2026-05-28",
+      "mealType": "lunch",
+      "recipeId": "3f43338e-0f85-4dc8-83a1-ad74899aa6a9",
+      "servingSizeOverride": null,
+      "status": "NotCooked",
+      "cookedSnapshot": null
+    }
+  ]
+}

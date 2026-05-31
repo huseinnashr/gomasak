@@ -1,6 +1,6 @@
 # Chat History
 
-## A. user_stories.md
+## 1. user_stories.md
 ### init chat
 please act as Product Manager, ask clarifying question if necessary. at the end, turn this into user_stories.md
 
@@ -36,7 +36,7 @@ oh and please change Uncooked to NotCooked wdyt?
 
 ### End Chat
 
-## B. mvp_feature.md
+## 2. mvp_feature.md
 ### init chat
 please act as System architect, ask clarifying quesiton, keep system simple
 
@@ -46,20 +46,31 @@ based on @docs/user_stories.md , please write mvp_feature_spec.md, we're gonna u
 ### Claude generate the spec
 ### End Chat
 
-## C. readme.md
+## 3. readme.md
 ### init chat
 based on @docs/1_user_stories.md @docs/mvp_feature_spec.md , please fill project description on README.md
 
 ### Claude update the readme
 ### End Chat
 
-## D. mvp_feature_plans
+## 4. mvp_feature_plans
 ### init chat
 act as a software engineer, please ask clarifying question if necessary
 based on @docs/user_stories.md and @docs/mvp_feature_spec.md , create execution plan
 
 ### claude create plan files
 
-## E. Exec the plan
+## 5. Exec the plan
 ### init chat
 please exec @docs/mvp_feature_plans/00-overview.md  until 10
+
+## 6. Testing with playwright
+### Init Chat
+can you do user test based on @docs/user_stories.md & @docs/mvp_feature_spec.md  on this link
+https://huseinnashr.github.io/gomasak/
+
+can you also take screenshot so that we can use it on the pitch deck slides, please also export the data (json) so i can take a look on my side (import). oh please use mobile resolution (portrait),
+
+### Claude than setup test code and execute the test. 
+### We get screenshot and json export
+### End Chat
