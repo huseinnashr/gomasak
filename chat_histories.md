@@ -59,3 +59,7 @@ act as a software engineer, please ask clarifying question if necessary
 based on @docs/user_stories.md and @docs/mvp_feature_spec.md , create execution plan
 
 ### claude create plan files
+
+## E. Exec the plan
+### init chat
+please exec @docs/mvp_feature_plans/00-overview.md  until 10
