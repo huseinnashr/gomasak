@@ -1,7 +1,7 @@
 # Chat History
 
 ## A. user_stories.md
-### Init Ask
+### init chat
 please act as Product Manager, ask clarifying question if necessary. at the end, turn this into user_stories.md
 
 - I want to build a web app (mobile) where you can login with user and pin.
@@ -37,7 +37,7 @@ oh and please change Uncooked to NotCooked wdyt?
 ### End Chat
 
 ## B. mvp_feature.md
-### init ask
+### init chat
 please act as System architect, ask clarifying quesiton, keep system simple
 
 based on @docs/user_stories.md , please write mvp_feature_spec.md, we're gonna use vite (bundled to html, css, js) as the frontend, no BE, user data is saved to localstorage. skip login and add export/import (json) data
@@ -47,8 +47,15 @@ based on @docs/user_stories.md , please write mvp_feature_spec.md, we're gonna u
 ### End Chat
 
 ## C. readme.md
-### init ask
+### init chat
 based on @docs/1_user_stories.md @docs/mvp_feature_spec.md , please fill project description on README.md
 
 ### Claude update the readme
 ### End Chat
+
+## D. mvp_feature_plans
+### init chat
+act as a software engineer, please ask clarifying question if necessary
+based on @docs/user_stories.md and @docs/mvp_feature_spec.md , create execution plan
+
+### claude create plan files
